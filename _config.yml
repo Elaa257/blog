@@ -6,3 +6,9 @@ sass:
 permalink:  /:categories/:title/
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+  - jekyll-target-blank
+
+last-modified-at:
+  date-format: '%d-%b-%y'
