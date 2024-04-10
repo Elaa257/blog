@@ -1,6 +1,8 @@
 url: "https://blog.vedantsinghania.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "Blog" # the name of your site, e.g. ACME Corp.
 sass:
   sass_dir: _sass
 permalink:  /:categories/:title/
+plugins:
+  - jekyll-seo-tag
