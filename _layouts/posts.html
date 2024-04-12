@@ -4,9 +4,12 @@ layout: base
 
 <h1>{{ page.title }}</h1>
 <br/>
+<hr/>
+<br/>
 <p>{{ content }}</p>
 <br/>
 <hr/>
 <br/>
-<p> {{ page.date | date: "%b %-d, %Y" }}</p>
-<p> {{ page.author }}</p>
+<p>Last Updated {{ page.last_modified_at | date: "%b %-d, %Y" }}</p>
+<p>Originally Published {{ page.date | date: "%b %-d, %Y" }}</p>
+<p>Written by {{ site.author }}</p>
